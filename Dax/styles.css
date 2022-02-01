@@ -1,8 +1,11 @@
 #søkefelt{
-    margin-left:auto;
+    margin-left:400px;
     margin-right:auto;
     display: inherit;
     margin-top:100px;;
+    width:300px;
+    height: 50px;
+    font-size: 20pt;
 }
 
 body{
@@ -13,26 +16,37 @@ body{
 #knapp{
     background-color: #d1d3d1;
     border: none;
-    color: white;
-    padding: 15px 32px;
+    padding: 30px 50px;
     text-decoration: none;
     display: inherit;
     font-size: 16px;
-    margin-left:auto;
+    margin-left:465px;
     margin-right:auto;
     margin-top:40px;
     cursor: pointer;
     box-shadow: black 1px 1px;
 }
 
-.fieldset{
+.besøkende {
+    border-width: 1px;
     border-color: black;
+    background-color:rgb(255, 255, 255);
+    width:500px;
+    padding:16px;	
+    margin-left:1100px;
+    margin-bottom:300px;
+    position: relative;
+    bottom: 310px;
+  
 }
 
 #takkefelt{
     text-align: center;
+    font-size: 50px;
 }
 
 #tallET{
     text-align: center;
+    margin-right: 900px;
+    font-size: 37pt;
 }
